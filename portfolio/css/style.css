@@ -1,0 +1,96 @@
+* {
+    color: rgb(55, 254, 5);
+    font-family: "Chakra Petch", sans-serif;
+    /* background-color: black; */
+    /* border: 1px solid white; */
+    margin: 0px;
+    cursor: url(../accets/cursor.svg) 15 15, move;
+}
+
+#navigation_bar {
+    width: 100%;
+    background-color: black;
+    position: sticky;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 30px;
+    border: 1px solid rgb(8, 243, 8);
+    box-shadow: 1px 1px 15px rgb(12, 252, 12);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+
+header {
+    display: flex;
+    width: 60%;
+    height: 70px;
+    justify-content: center;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 28px;
+
+}
+
+.module:hover {
+    /* cursor: pointer; */
+    cursor: url(../accets/cursorpointer.png) 15 15, move;
+
+}
+
+#persion_name {
+    margin-right: 250px;
+}
+
+.fa-solid.fa-bars {
+    margin-right: 25px;
+}
+
+.module {
+    text-decoration: none;
+}
+
+#home {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to top, green, black, black, green);
+}
+
+#home_image {
+    position: absolute;
+    height: 300px;
+    width: 350px;
+    left: 60%;
+    top: 33%;
+    background: none;
+    background-image: url("../accets/63cd7887d0a70-unscreen.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#home_heading {
+    font-family: "Sixtyfour", sans-serif;
+    font-size: 24px;
+}
+
+#home_content {
+    padding-top: 130px;
+    padding-left: 100px;
+}
+
+#margin_content {
+    display: flex;
+    width: 320px;
+    height: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(75, 117, 35);
+    border-radius: 5px;
+
+}
